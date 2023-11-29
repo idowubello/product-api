@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.container .main {
+  height: 15rem;
+  width: 10rem;
+  outline: 1px solid #c4c4c4;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
